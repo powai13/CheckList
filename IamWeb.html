@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>予定表</title>
+    <link rel="stylesheet" href="IamWeb.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
+</head>
+<body>
+    <!--　リストページ　-->
+    <div id="allBody" style="width: 375px; height: 812px;">
+
+        <!--　ヘッダー　-->
+        <header>
+            <div id="headerText">
+            メモ帳チェックシート
+            </div>
+        </header>
+
+        <!--　チェックシート選択　-->
+        <div id="checkListBody"></div>
+
+        <!--　追加ボタン　-->
+    <div id="btnArea">
+        <button id="plusBtn" onclick="checkList()">+</button>
+    </div>
+</div>
+
+    <!--　詳細ページ　-->
+    <div id="newBody" style="width: 375px; height: 812px; display: none">
+    
+    <!--　ヘッダー　-->
+    <header id="headerS">
+        <div id="titleBack" onclick="main()"><</div>
+        <div id="headerText_n">タイトル</div>
+        <img src="many.png" id="checkmany" onclick="many()">
+    </header>
+    
+    <!--　チェックリスト　-->
+    <main id="checkList_n"></main>
+    </div>
+
+        <!-- モーダルウィンドウ　-->
+        <div id="modalWindow" style="display: none;">
+
+            <!--　ヘッダー　-->
+            <div id="modalHeader">
+                <div id="modalHText">新規チェックシート</div>    
+            </div>
+    
+            <!--　説明　-->
+            <div id="modalExp">タイトルを入力</div>
+    
+            <!--　タイトル入力部　-->
+            <div id="modalText">
+                <input type="text" maxlength="10" id="titleText" placeholder="テキストを入力">
+            </div>
+    
+            <!-- 決定ボタン　-->
+            <div id="modalBtn" onclick="modal()">OK</div>
+
+        </div>
+
+    <!-- モーダルウィンドウ　-->
+    <div id="modalWindowS" style="display: none;">
+        <!--　ヘッダー　-->
+        <div id="modalHeaderS">
+            <div id="modalBackS" onclick="modalBack()"><</div>
+            <div id="modalHTextS">設定</div>    
+        </div>
+
+        <!--　説明　-->
+        <div id="modalExpS">タイトルを変更</div>
+
+        <!--　タイトル入力部　-->
+        <div id="modalTextS">
+            <input type="text" id="titleTextS" maxlength="10" placeholder="テキストを入力">
+        </div>
+
+        <!-- 決定ボタン　-->
+        <div id="modalBtnS" onclick="manyOK()">OK</div>
+
+        <!-- 削除　-->
+        <div id="delete" onclick="delet()">削除</div>
+    </div>
+    <button onclick="push()">ああ</button>
+
+    <script src="IamWeb.js"></script>
+</body>
+</html>

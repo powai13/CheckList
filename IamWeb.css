@@ -1,0 +1,218 @@
+/*　全体　*/
+#allBody {
+    background-color: #fff;
+    border: blue solid;
+}
+
+#newBody {
+    background-color: #fff;
+    border: blue solid;
+}
+
+/*　ヘッダー　*/
+header {
+    background-color: #33ccff;
+    height: 50px;
+}
+
+#headerS {
+}
+
+#headerText {
+    color: #fff;
+    font-size: 24px;
+    padding: 13px;
+}
+
+#headerText_n {
+    color: #fff;
+    font-size: 24px;
+    padding: 13px;
+
+    display: inline-flex;
+    width: 250px;
+}
+
+#titleBack {
+    height: 30px;
+    display: inline-flex;
+    font-size: 30px;
+    color: gray;
+    padding-left: 20px;
+}
+
+#checkmany {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+
+    padding-top: 5px;
+    align-items: baseline;
+}
+
+/*　ボタン　*/
+#plusBtn {
+    color: #fff;
+    background-color: #33ccff;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#btnArea {
+    padding-top: 10px;
+    text-align:center;
+}
+
+/* チェックリスト　*/
+.checkList {
+    height: 60px;
+    width: 95%;
+    margin: auto;
+    background-color: #6699ff;
+    margin-top: 5px;
+}
+
+.checklistText {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+    display: inline-flex;
+    width: 55%;
+}
+
+.textListAlart {
+    text-align: right;
+    color: #fff;
+    padding-top: 45px;
+    padding-right: 5px;
+    font-size: 15px;
+
+    display: inline-flex;
+    width: 35%;
+}
+
+/*　チェックボックス　*/
+.container {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.test {
+    margin-bottom: 15px;
+}
+
+/*　モーダルウィンドウ（新規作成）　*/
+#modalWindow {
+    height: 300px;
+    position: fixed;
+    top: 110px;
+    width: 300px;
+    left: 49px;
+    z-index: 20;
+    border: blue solid;
+    background-color: #fff;
+}
+
+#modalHeader {
+    height: 40px;
+    background-color: #33ccff;
+}
+
+#modalHText {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#modalExp {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#modalText {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#modalBtn {
+    margin-top: 10px;
+    margin-left: 5px;
+
+    width: 30px;
+    background-color: #6699ff;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/*　モーダルウィンドウ（メニュー）　*/
+#modalWindowS {
+    height: 300px;
+    position: fixed;
+    top: 110px;
+    width: 300px;
+    left: 49px;
+    z-index: 20;
+    border: blue solid;
+    background-color: #fff;
+}
+
+#modalHeaderS {
+    height: 40px;
+    background-color: #33ccff;
+}
+
+#modalHTextS {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+
+#modalBackS {
+    display: inline-flex;
+
+    color: gray;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#modalExpS {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#modalTextS {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#modalBtnS {
+    margin-top: 10px;
+    margin-left: 5px;
+
+    width: 30px;
+    background-color: #6699ff;
+    color: #fff;
+    text-align: center;
+}
+
+#delete {
+    margin-top: 10px;
+    margin-left: 5px;
+
+    padding-top: 5px;
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
